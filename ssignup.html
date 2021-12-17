@@ -1,0 +1,69 @@
+
+<html>
+ <head>
+ <title>Sign-Up</title> 
+ <style>
+ #body-color
+    { background-color:  #b3ffcc; 
+	} 
+ #Sign-Up
+	{ background-image:url('sign-up.png');
+	background-size:500px 500px;
+	background-repeat:no-repeat;
+	background-attachment:fixed; 
+	background-position:center;
+	margin-top:150px; 
+	margin-bottom:150px;
+	margin-right:150px;
+	margin-left:450px;
+	padding:9px 35px; 
+		}
+ #btn
+ { 
+ border-radius:10px;
+ width:100px; 
+ height:40px;
+ background:#FF00FF;
+ font-weight:bold; 
+ font-size:20px; 
+ }
+ </style> 
+ </head>
+ <body id="body-color">
+ <div id="Sign-Up"> 
+ <fieldset style="width:30%"><legend>REGISTER HERE</legend> 
+ <table border="0">
+ <form action="ssignup.php" method="POST" >  
+ <tr>
+ <td>Name</td><td> <input type="text" name="name" required></td>
+
+ </tr>
+ <tr> 
+ <td>Email</td><td><input type="email" name="emailid" required></td> 
+ </tr>
+ <tr> 
+
+
+ <td>Roll No.</td><td> <input type="text" name="rollno" required></td>
+ </tr>
+ <tr>
+ <td>Password</td><td> <input type="password" name="password" required></td>
+ </tr>
+ <tr>
+ <td>Confirm Password </td><td><input type="password" name="cpassword" required></td> 
+ </tr>
+ <tr>
+ <td><input id="btn" type="submit" name="submit" value="Sign-Up"></td>
+ </tr> 
+ <tr>
+ <td><a style="text-decoration:none;" id="btn" href="ssignin.html">Login-In</a></td>
+ </tr> 
+ 
+ </form> 
+ 
+ </table>
+ </fieldset> 
+ </div> 
+ </body> 
+ </html>
+ 
